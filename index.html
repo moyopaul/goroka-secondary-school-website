@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goroka Secondary School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Goroka Secondary School</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programme.html">Programmes</a></li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <img class="home-image" src="Images/Students.jpg" alt="Students at Goroka Secondary School">
+      <h2>Welcome</h2>
+      <p>To provide quality education that empowers students for future success.</p>
+      <p>School term starts on September 15, 2026.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <article>
+        <h3>History</h3>
+        <p>Established in Goroka, we have been serving the community with excellence in education.</p>
+      </article>
+      <article>
+        <h3>Mission</h3>
+        <p>To nurture students academically, socially, and culturally.</p>
+      </article>
+      <article>
+        <h3>School Leadership</h3>
+        <p><strong>Principal:</strong> Mrs Parunga</p>
+        <p><strong>Deputy Principal:</strong> Mr. Martin</p>
+      </article>
+    </section>
+
+    <!-- Programmes Section -->
+    <section id="programmes">
+      <h2>Our Programmes</h2>
+      <h3>Academic Streams</h3>
+      <ul>
+        <li>Science</li>
+        <li>Business Studies</li>
+        <li>Humanities</li>
+      </ul>
+      <h3>Co-Curricular Activities</h3>
+      <p>Sports, cultural clubs, and leadership programmes.</p>
+    </section>
+
+    <!-- Information Section -->
+    <section id="information">
+      <img class="section-image" src="Images/Career Talk.jpg" alt="Career talk at Goroka Secondary School">
+      <h2>School Information</h2>
+      <h3>News & Events</h3>
+      <p>Annual Cultural Day scheduled for October 2026.</p>
+      <h3>Timetable</h3>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th scope="col">Day</th><th scope="col">Classes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Monday</td><td>Science, Math, English</td></tr>
+            <tr><td>Tuesday</td><td>Business, History, ICT</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>P.O. Box 123, Goroka, Eastern Highlands, Papua New Guinea</p>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Goroka Secondary School</p>
+  </footer>
+</body>
+</html>
